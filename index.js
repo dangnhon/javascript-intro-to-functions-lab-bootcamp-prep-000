@@ -31,7 +31,8 @@ mixcase.toUpperCase() === mixcase;
 mixcase.toLowerCase() === mixcase;
 
 function sayHiToGrandma(string) {
-  if (mixcase) { return("I love you, too."); 
+  if (mixcase) { return("I love you, too.");
+ } else if (lowercase) {return("I can't hear you!")
   }}
   
 
