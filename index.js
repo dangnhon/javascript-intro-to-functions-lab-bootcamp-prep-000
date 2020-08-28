@@ -1,5 +1,5 @@
 function shout(string) { 
-  return string.toUpperCase(string);
+  return string.toUpperCase();
 }
 
 function whisper(string) {
@@ -26,7 +26,7 @@ function sayHiToGrandma (string) {
   if (string.toLowerCase() === string) {
     return notHeard;
   }
-  else if (string.toUpperCase(string) === string) {
+  else if (string.toUpperCase() === string) {
     return heard;
   }
   else if ("I love you, Grandma." === string) {
