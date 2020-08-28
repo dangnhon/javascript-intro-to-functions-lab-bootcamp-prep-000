@@ -16,22 +16,8 @@ function logWhisper(constantSentence) {
   console.log(constantSentence.toLowerCase());
 }
 
-var uppercase = "HELLO!";
+function sayHiToGrandma(string) 
 
-uppercase.toUpperCase() === uppercase;
-
-var lowercase = "hello!";
-
-lowercase.toLowerCase() === lowercase;
-
-var mixcase = "I love you, grandma.";
-
-mixcase.toUpperCase() === mixcase;
-
-mixcase.toLowerCase() === mixcase;
-
-function sayHiToGrandma(string) { 
-  return("I can't hear you!") }
   
 
   
