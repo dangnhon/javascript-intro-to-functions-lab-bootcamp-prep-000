@@ -28,14 +28,14 @@ function sayHiToGrandma (string) {
   var cantUnswer = "I can't hear you!";
   var yesUnswer = "YES INDEED!";
   var lovUnswer = "I love you, too.";
-  if (aWord.toLowerCase(aWord) === aWord) {
+  if (string.toLowerCase(string) === string) {
     return cantUnswer;
   }
-  else if (aWord.toUpperCase(aWord) === aWord) {
+  else if (string.toUpperCase(string) === string) {
     return yesUnswer;
   }
-  else if ("I love you, Grandma." === aWord) {
-    return lovUnswer
+  else if ("I love you, Grandma." === string) {
+    return lovUnswer;
   }
 }
 
