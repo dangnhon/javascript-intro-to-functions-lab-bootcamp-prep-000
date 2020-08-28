@@ -29,10 +29,10 @@ function sayHiToGrandma(string) {
     } 
     else if (string.toUpperCase(string) === string) {
     return heard; 
-    
-  } else ("I love you, Grandma." === string) {
+    }
+    else ("I love you, Grandma." === string) {
     return love;
-  }
+  }}
 
   
 
