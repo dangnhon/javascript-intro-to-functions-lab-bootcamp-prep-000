@@ -30,7 +30,7 @@ function sayHiToGrandma (string) {
     return heard;
   }
   else if ("I love you, Grandma." === string) {
-    return loe;
+    return love;
   }
 }
 
