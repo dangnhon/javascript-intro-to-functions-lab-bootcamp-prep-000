@@ -1,0 +1,43 @@
+function shout(string) { 
+  return string.toUpperCase();
+}
+
+function whisper(string) {
+  return string.toLowerCase();
+}
+
+var constantSentence = 'string';
+
+function logShout(constantSentence) {
+console.log(constantSentence.toUpperCase());
+} 
+
+function logWhisper(constantSentence) {
+  console.log(constantSentence.toLowerCase());
+}
+
+var uppercase = "HELLO!";
+
+uppercase.toUpperCase() === uppercase;
+
+var lowercase = "hello!";
+
+lowercase.toLowerCase() === lowercase;
+
+var mixcase = "I love you, grandma.";
+
+mixcase.toUpperCase() === mixcase;
+
+mixcase.toLowerCase() === mixcase;
+
+function sayHiToGrandma(string) {
+  if ("hello!") { return("I can't hear you!");
+  } else if ("HELLO!") { return("YES INDEED!");
+  } else if ("I love you, grandma.") return ("I love you, too.");
+}
+
+
+
+
+  
+  
