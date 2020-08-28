@@ -22,8 +22,9 @@ var notHeard = "I can't hear you!";
   
 var love = "I love you, too.";
 
+/////// what?? //////
 
-function sayHiToGrandma (aWord) {
+function sayHiToGrandma (string) {
   var cantUnswer = "I can't hear you!";
   var yesUnswer = "YES INDEED!";
   var lovUnswer = "I love you, too.";
