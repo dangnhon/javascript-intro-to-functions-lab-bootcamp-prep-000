@@ -20,17 +20,17 @@ function logWhisper(constantSentence) {
 /////// what?? //////
 
 function sayHiToGrandma (string) {
-  var cantUnswer = "I can't hear you!";
-  var yesUnswer = "YES INDEED!";
-  var lovUnswer = "I love you, too.";
+  var notHeard = "I can't hear you!";
+  var heard = "YES INDEED!";
+  var love = "I love you, too.";
   if (string.toLowerCase(string) === string) {
-    return cantUnswer;
+    return notHeard;
   }
   else if (string.toUpperCase(string) === string) {
-    return yesUnswer;
+    return heard;
   }
   else if ("I love you, Grandma." === string) {
-    return lovUnswer;
+    return love;
   }
 }
 
