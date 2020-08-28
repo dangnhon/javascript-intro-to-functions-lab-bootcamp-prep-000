@@ -17,7 +17,10 @@ function logWhisper(constantSentence) {
 }
 
 function sayHiToGrandma(string) { 
-  var 
+  
+  var heard = "YES INDEED!"
+  
+  var
 
   
 
