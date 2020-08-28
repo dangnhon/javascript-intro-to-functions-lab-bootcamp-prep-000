@@ -15,12 +15,7 @@ console.log(constantSentence.toUpperCase());
 function logWhisper(constantSentence) {
   console.log(constantSentence.toLowerCase());
 }
-  
-var heard = "YES INDEED!";
-  
-var notHeard = "I can't hear you!";
-  
-var love = "I love you, too.";
+
 
 /////// what?? //////
 
