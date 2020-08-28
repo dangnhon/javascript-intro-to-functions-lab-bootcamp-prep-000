@@ -24,7 +24,7 @@ function sayHiToGrandma(string) {
   
   var love = "I love you, too.";
   
-  if 
+  if string
 
   
 
