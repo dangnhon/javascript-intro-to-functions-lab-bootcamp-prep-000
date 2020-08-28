@@ -16,8 +16,6 @@ function logWhisper(constantSentence) {
   console.log(constantSentence.toLowerCase());
 }
 
-/////// what?? //////
-
 function sayHiToGrandma (string) {
   var notHeard = "I can't hear you!";
   var heard = "YES INDEED!";
