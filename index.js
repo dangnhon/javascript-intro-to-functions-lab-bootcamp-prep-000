@@ -23,16 +23,20 @@ var notHeard = "I can't hear you!";
 var love = "I love you, too.";
 
 
-function sayHiToGrandma(string) { 
-  if (string.toLowerCase(string) === string) {
-    return notHeard;
-    } 
-    else if (string.toUpperCase(string) === string) {
-    return heard; 
-    }
-    else ("I love you, Grandma." === string) {
-    return love;
-  }}
+function sayHiToGrandma (aWord) {
+  var cantUnswer = "I can't hear you!";
+  var yesUnswer = "YES INDEED!";
+  var lovUnswer = "I love you, too.";
+  if (aWord.toLowerCase(aWord) === aWord) {
+    return cantUnswer;
+  }
+  else if (aWord.toUpperCase(aWord) === aWord) {
+    return yesUnswer;
+  }
+  else if ("I love you, Grandma." === aWord) {
+    return lovUnswer
+  }
+}
 
   
 
